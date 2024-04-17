@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  /* background-color:red;  */
+  padding: 0px 0px 0px 80px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.border-ryt {
+  border-right: 1px solid #eee;
+}
+.box1 {
+  display: flex;
+  text-align: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.olytxt {
+  margin: 0px 7.5px;
+}
+
+.olytxt > :nth-child(1) {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sec-text {
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.span1 img {
+  margin: 0px 7.5px;
+  width: 25px;
+  height: 35px;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  height: 100%;
+}
+.lang span {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0px 4px;
+}
+.lang img {
+  margin: 0px 4px;
+  width: 25px;
+  height: 35px;
+}
+
+.lang2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang2 span {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0px 4px;
+  height: 100%;
+  padding-right: 70px;
+}
+
+.siez {
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+.locations {
+  background-color: rgb(243, 245, 247);
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+}
+.locations span {
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+/**search**/
+.search {
+  /* height: 100px; */
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.img1 {
+  /* height: 100px; */
+  /* background-color: cover; */
+  /* width: 100vw; */
+}
+
+.search-section h1 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  z-index: 10;
+  top: 80px;
+}
+
+.img1 img {
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  width: 1897px;
+  height: 27vh;
+}
+
+/**search bar**/
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-buttons {
+  z-index: 10;
+  /* position: relative; */
+  background-color: rgb(255, 255, 255);
+  height: 58px;
+  width: 70vw;
+  border-radius: 4px;
+  display: flex;
+  margin-top: 130px;
+}
+
+.email-ad {
+  background-color: rgb(253, 253, 253);
+  height: 58px;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.5px solid black;
+}
+
+.email-ad span {
+  font-family: sans-serif;
+  font-weight: 100;
+  color: rgba(58, 58, 58, 0.54);
+}
+
+.email-ad2 {
+  background-color: rgb(255, 255, 255);
+  height: 58px;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.5px solid black;
+}
+
+.email-ad2 span {
+  font-family: sans-serif;
+  font-weight: 550;
+}
+
+.email-ad3 {
+  background-color: rgb(25, 178, 79);
+  height: 58px;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email-ad3 span {
+  font-family: sans-serif;
+  font-weight: 550;
+  color: white;
+}
+
+/**stop**/
+
+.offer {
+  margin-top: 470px;
+}
+.hero-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  flex-direction: column;
+}
+
+.hero-picture img {
+  background-size: cover;
+  height: 390px;
+  border-radius: 4px;
+}
+
+.hero-picture > :nth-child(2) {
+  margin-bottom: 50px;
+
+  height: 180px;
+
+  margin-top: 50px;
+}
+
+.cupon {
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 1750px;
+  border-radius: 5px;
+}
+.cupon input {
+  margin-left: 600px;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+}
+.cupon span {
+  margin-right: 100px;
+  font-family: sans-serif;
+  background-color: #ee2a24;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  margin-left: 10px;
+}
+.cupon input {
+  height: 40px;
+}
+
+.not-fy {
+  display: flex;
+  justify-content: space-between;
+}
+.align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.txt2 {
+  margin-left: 20px;
+}
+
+/** hero 3**/
+.hero3 {
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 2100px;
+  width: 95vw;
+}
+
+.hero3 img {
+  background-size: cover;
+  width: 100%;
+}
+.hero3 > :nth-child(2) {
+  margin-top: 40px;
+  height: 800px;
+}
+/** footer**/
